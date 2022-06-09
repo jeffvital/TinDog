@@ -5,13 +5,20 @@ body {
 
 #title {
   background-color: #ff4c68;
-  color: white;
+  color: #ffff;
 }
 
 h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
   font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem;
   line-height: 1.5;
 }
 
@@ -79,4 +86,34 @@ p {
 
 .icon:hover {
   color: #ff4c68;
+}
+
+/* Testimonials section */
+
+#testimonials {
+  background-color: #ef8172;
+  color: #ffff;
+
+  text-align: center;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
 }
