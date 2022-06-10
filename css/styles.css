@@ -117,3 +117,12 @@ p {
 .carousel-item {
   padding: 7% 15%;
 }
+
+.row {
+  margin: 0 auto;
+}
+
+.card {
+  height: 100%;
+  text-align: center;
+}
