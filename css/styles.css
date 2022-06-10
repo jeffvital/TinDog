@@ -103,6 +103,8 @@ p {
   width: 10%;
 }
 
+/* Press Section */
+
 #press {
   background-color: #ef8172;
   text-align: center;
@@ -122,7 +124,11 @@ p {
   margin: 0 auto;
 }
 
-.card {
-  height: 100%;
+#pricing {
+  padding: 50px;
   text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
 }
