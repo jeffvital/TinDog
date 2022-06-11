@@ -63,13 +63,22 @@ p {
 
 /* Title Image */
 
+.dog-phone-div {
+  position: relative;
+}
+
 .title-image {
+  
+  position: absolute;
   width: 60%;
   transform: rotate(25deg);
 }
 
 #features {
+  position: relative;
+  background-color: #fff;
   padding: 7% 15%;
+  z-index: 1;
 }
 
 .feature-box {
@@ -123,6 +132,8 @@ p {
 .row {
   margin: 0 auto;
 }
+
+/* Pricing Section */
 
 #pricing {
   padding: 50px;
