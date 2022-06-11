@@ -32,7 +32,7 @@ p {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 /* Navigation Bar */
@@ -68,17 +68,16 @@ p {
 }
 
 .title-image {
-  
   position: absolute;
-  width: 60%;
+  right: 30%;
   transform: rotate(25deg);
+  width: 60%;
 }
 
 #features {
   position: relative;
   background-color: #fff;
   padding: 7% 15%;
-  z-index: 1;
 }
 
 .feature-box {
@@ -142,4 +141,15 @@ p {
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+@media (max-width: 768px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 50vw;
+  }
+  h1 {
+    text-align: center;
+  }
 }
