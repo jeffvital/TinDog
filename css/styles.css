@@ -148,8 +148,5 @@ p {
     position: static;
     transform: rotate(0);
     width: 50vw;
+
   }
-  h1 {
-    text-align: center;
-  }
-}
