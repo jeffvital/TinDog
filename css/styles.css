@@ -181,3 +181,31 @@ p {
   font-size: 2rem;
   font-family: "Montserrat";
 }
+
+.social-media-footer {
+  display: inline;
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  margin: 1%;
+  font-size: 1rem;
+}
+
+a:hover {
+  color: #ef8172;
+}
+
+#footer {
+  text-align: center;
+  background-color: #fff;
+  margin: 5%;
+}
+
+.footer-copy {
+  text-align: center;
+  color: #8f8f8f;
+  padding-left: 30px;
+}
