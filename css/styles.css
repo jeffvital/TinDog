@@ -3,32 +3,39 @@ body {
   font-weight: 500;
 }
 
-#title {
-  background-color: #ff4c68;
-  color: #ffff;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Montserrat," sans-serif;
+}
+
+h1,
+h2 {
+  font-weight: 900;
+  line-height: 1.5;
 }
 
 h1 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 900;
   font-size: 3.5rem;
-  line-height: 1.5;
 }
 
 h2 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 900;
   font-size: 2.5rem;
-  line-height: 1.5;
 }
 
 h3 {
-  font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
 
 p {
   color: #8f8f8f;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #ffff;
 }
 
 .container-fluid {
@@ -168,13 +175,38 @@ p {
   }
 }
 
-/* Bottom Section */
+/* CTA Section */
 
 #cta {
   background-color: #ff4c68;
   color: #fff;
-  padding: 120px 40px 120px 40px;
+  padding: 7% 15%;
   text-align: center;
+}
+
+#footer {
+  text-align: center;
+  background-color: #fff;
+  margin: 10%;
+}
+
+.foot-text {
+  margin-bottom: 70px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .foot-text {
+    font-size: 2rem;
+  }
+}
+
+.footer-copy {
+  text-align: center;
+  color: #8f8f8f;
+  padding-left: 30px;
 }
 
 .social-media-footer {
@@ -191,32 +223,4 @@ a {
 
 a:hover {
   color: #ef8172;
-}
-
-#footer {
-  text-align: center;
-  background-color: #fff;
-  margin: 10%;
-}
-
-.foot-text {
-  margin-bottom: 70px;
-  font-family: "Montserrat", sans-serif;
-  font-size: 3.5rem;
-}
-
-@media (max-width: 768px) {
-  .foot-text {
-    font-size: 2rem;
-  }
-}
-
-.footer-copy {
-  text-align: center;
-  color: #8f8f8f;
-  padding-left: 30px;
-}
-
-.footer-btn {
-  margin: 10px;
 }
