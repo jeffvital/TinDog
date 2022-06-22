@@ -21,16 +21,19 @@ h1 {
   font-size: 3.5rem;
 }
 
-h2 {
-  font-size: 2.5rem;
-}
-
 h3 {
   font-weight: bold;
 }
 
 p {
   color: #8f8f8f;
+}
+
+/* Headings */
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 #title {
@@ -111,6 +114,11 @@ p {
   text-align: center;
 }
 
+.testimonial-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
 .testimonial-image {
   border-radius: 100%;
   margin: 20px;
@@ -145,6 +153,10 @@ p {
   text-align: center;
 }
 
+.price-text {
+  font-size: 2.5rem;
+}
+
 .pricing-column {
   padding: 3% 2%;
 }
@@ -161,7 +173,7 @@ p {
     text-align: center;
   }
   h1,
-  h2 {
+  .section-heading {
     font-size: 2rem;
   }
 }
